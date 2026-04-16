@@ -35,17 +35,17 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="PYTHON"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
+              text="C++"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="C"
               containerRef={grid2Container}
             />
             <Card
@@ -55,14 +55,16 @@ const About = () => {
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="Machine Learning"
               containerRef={grid2Container}
             />
+            {/*
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
               image="assets/logos/csharp-pink.png"
               containerRef={grid2Container}
             />
+
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
               image="assets/logos/dotnet-pink.png"
@@ -73,6 +75,7 @@ const About = () => {
               image="assets/logos/blazor-pink.png"
               containerRef={grid2Container}
             />
+            */}
           </div>
         </div>
         {/* Grid 3 */}
@@ -80,7 +83,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in Chennai,India and open internship and opportunities.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -101,8 +104,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I'm currently learning languages,frameworks that allow me to build scalable applications
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

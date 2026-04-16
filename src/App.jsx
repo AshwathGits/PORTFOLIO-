@@ -13,10 +13,10 @@ const App = () => {
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
-      <About />
-      <Projects />
+      <About  />
+      {/*<Projects />*/}
       <Experiences />
-      <Testimonial />
+      {/*<Testimonial />*/}
       <Contact />
       <Footer/>
     </div>

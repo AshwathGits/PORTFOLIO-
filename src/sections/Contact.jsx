@@ -30,8 +30,9 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_wnbtjid",
+        "template_qat6z0o",
+        
         {
           from_name: formData.name,
           to_name: "Ali",
@@ -39,7 +40,7 @@ const Contact = () => {
           to_email: "AliSanatiDev@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "uSfPyQPnXcU5ovo3v"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -64,8 +65,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            if you want to work with me as my teammate , just contact me.. we will make it TOGETHER..
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +78,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Ex: John Doe"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +94,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="Ex: JohnDoe@email.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
